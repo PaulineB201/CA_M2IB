@@ -35,7 +35,8 @@ processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 tokenizer = CLIPTokenizerFast.from_pretrained("openai/clip-vit-base-patch32")
 
 # Example on Conceptual Dataset 
-img = "/work/emmanuelle/M2IB/images/cardinal.png" 
+# Image-Paired Caption
+img = "./images/cardinal.png" 
 text_caption = "northern cardinal perched on a branch during a heavy winter snow storm."
 # Run model and visualise heatmaps 
 visualise(model, img, text_caption)
