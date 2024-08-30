@@ -30,15 +30,3 @@ python run.py
 ### Acknowledgments 
 
 This work is based on [M2IB](https://github.com/YingWANGG/M2IB/tree/main), [IBA](https://github.com/bazingagin/IBA) and [IBA]( https://github.com/BioroboticsLab/IBA). We thank the authors for their contribution and releasing their code.
-
-### Citation
-```
-@inproceedings{
-anonymous2024multimodal,
-title={Multi-Modal Information Bottleneck Attribution with Cross-Attention Guidance},
-author={Anonymous},
-booktitle={The Thirty Fifth British Machine Vision Conference},
-year={2024},
-url={https://openreview.net/forum?id=GQtxB5Vo8r}
-}
-```
