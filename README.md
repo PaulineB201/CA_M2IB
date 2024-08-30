@@ -1,15 +1,7 @@
 # Multi-Modal Information Bottleneck Attribution with Cross-Attention Guidance
 
 **Abstract**
-For the progression of interpretable machine learning, particularly in the intersec-
-tion of vision and language, ensuring transparency and comprehensibility in model deci-
-sions is crucial. This work introduces an enhancement to the Multi-modal Information
-Bottleneck attribution method by integrating cross-attention mechanisms. This targets
-the core challenge of improving the interpretability of vision-language pretrained mod-
-els, such as CLIP, by fostering more discerning and relevant latent representations. The
-proposed method filters and retains essential information across modalities, leveraging
-cross-attention to dynamically focus on pertinent visual and textual features for any given
-context.
+For the progression of interpretable machine learning, particularly in the intersection of vision and language, ensuring transparency and comprehensibility in model decisions is crucial. This work introduces an enhancement to the Multi-modal Information Bottleneck attribution method by integrating cross-attention mechanisms. This targets the core challenge of improving the interpretability of vision-language pretrained models, such as CLIP, by fostering more discerning and relevant latent representations. The proposed method filters and retains essential information across modalities, leveraging cross-attention to dynamically focus on pertinent visual and textual features for any given context.
 
 ![ca-m2ib(3)](https://github.com/user-attachments/assets/445fc20a-c7ba-428d-939e-a6ca92eb50a6)
 
@@ -38,3 +30,15 @@ python run.py
 ### Acknowledgments 
 
 This work is based on [M2IB](https://github.com/YingWANGG/M2IB/tree/main), [IBA](https://github.com/bazingagin/IBA) and [IBA]( https://github.com/BioroboticsLab/IBA). We thank the authors for their contribution and releasing their code.
+
+### Citation
+```
+@inproceedings{
+anonymous2024multimodal,
+title={Multi-Modal Information Bottleneck Attribution with Cross-Attention Guidance},
+author={Anonymous},
+booktitle={The Thirty Fifth British Machine Vision Conference},
+year={2024},
+url={https://openreview.net/forum?id=GQtxB5Vo8r}
+}
+```
