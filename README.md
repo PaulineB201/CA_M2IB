@@ -1,5 +1,19 @@
 # Multi-Modal Information Bottleneck Attribution with Cross-Attention Guidance
 
+**Abstract**
+For the progression of interpretable machine learning, particularly in the intersec-
+tion of vision and language, ensuring transparency and comprehensibility in model deci-
+sions is crucial. This work introduces an enhancement to the Multi-modal Information
+Bottleneck attribution method by integrating cross-attention mechanisms. This targets
+the core challenge of improving the interpretability of vision-language pretrained mod-
+els, such as CLIP, by fostering more discerning and relevant latent representations. The
+proposed method filters and retains essential information across modalities, leveraging
+cross-attention to dynamically focus on pertinent visual and textual features for any given
+context.
+
+![ca-m2ib(3)](https://github.com/user-attachments/assets/445fc20a-c7ba-428d-939e-a6ca92eb50a6)
+
+
 ### Installation 
 
 Clone repository and install necessary packages, run: 
