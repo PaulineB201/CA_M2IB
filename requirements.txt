@@ -1,0 +1,11 @@
+ftfy 
+regex 
+tqdm
+git+https://github.com/openai/CLIP.git
+git+https://github.com/jacobgil/pytorch-grad-cam.git
+numpy==1.23.3
+torch==2.3.0 
+tqdm==4.64.1
+transformers==4.30.0
+matplotlib
+positional-encodings
